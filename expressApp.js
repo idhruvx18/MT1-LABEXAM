@@ -1,3 +1,7 @@
+// Part B: Express.js REST API Module
+// CRUD Operations: GET, POST, PUT, DELETE
+// Port: 4000
+
 import express from 'express';
 
 const app = express();
@@ -116,3 +120,4 @@ app.use((req, res) => {
 app.listen(4000, () => {
   console.log('Express Server running at http://localhost:4000');
 });
+
