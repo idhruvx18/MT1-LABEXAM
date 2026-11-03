@@ -1,3 +1,7 @@
+// Part A: HTTP Server Module - Node.js HTTP & FS Module
+// Routes: /, /tasks, /about, /home, /add-task
+// Port: 3000
+
 import http from 'http';
 import fs from 'fs';
 import path from 'path';
@@ -100,3 +104,4 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
   console.log('HTTP Server running at http://localhost:3000');
 });
+
